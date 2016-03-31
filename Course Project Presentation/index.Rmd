@@ -1,0 +1,64 @@
+---
+title       : Exploring mtCars Dataset
+subtitle    : Developing Data Products - Course Project 
+author      : Zarmeen Nasim
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## About
+
+This project is developed as a part of Coursera Data Science Specialization - Developing Data Products Course.
+
+My Shiny application https://zarmeen.shinyapps.io/Developing-Data-Products/ allows users to estimate the slope at which we can have minimum MSE i.e Mean Squared Error.
+
+I have used mtcars Dataset available in R
+
+
+--- .class #id 
+
+## Dataset
+
+```{r}
+library(datasets)
+head(mtcars)
+```
+
+--- .class #id
+## Estimating Beta
+My shiny app allow user to estimate beta that best fits the linear model between miles per gallon (mpg) and weight (wt) of car
+
+Below code shows how we can get beta from lm function
+```{r}
+library(datasets)
+fit <- lm(mpg ~ wt,data = mtcars)
+fit
+
+```
+
+--- .class #id
+## Plotting mtcars dataset
+
+```{r echo=FALSE}
+data("mtcars")
+plot(mtcars$wt,mtcars$mpg,
+xlab = "Weight(1000 lbs)",
+ylab = "Miles per Gallon(mpg)",
+bg = "lightblue",
+col = "black", cex = 2, pch = 21,frame = TRUE)
+abline(lm(mpg ~ wt,data = mtcars), lwd = 3)
+```
+
+
+--- .class #id
+## Project Links
+1. Github Repo
+    https://github.com/zarmeen92/Developing-Data-Products
+2. Shiny App
+    https://zarmeen.shinyapps.io/Developing-Data-Products/
+    
