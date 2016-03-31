@@ -11,4 +11,4 @@ Repository includes :
 
 Here is a link of R Shiny application https://zarmeen.shinyapps.io/Developing-Data-Products/
 
-Here is a link of R Slidify presentation
+Here is a link of R Slidify presentation http://zarmeen92.github.io/Developing-Data-Products/Course%20Project%20Presentation/index.html
