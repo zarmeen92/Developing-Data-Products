@@ -3,7 +3,7 @@
 This project is developed as a part of Coursera Data Science Specialization - Developing Data Products Course.
 
 My Shiny application allows users to estimate the slope at which we can have minimum MSE i.e Mean Squared Error.
-I have used Diamond Dataset available in R
+I have used mtcars Dataset available in R
 
 Repository includes :
   1. R shiny application code.

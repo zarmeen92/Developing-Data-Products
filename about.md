@@ -4,11 +4,11 @@ author: "Zarmeen"
 date: "March 31, 2016"
 output: html_document
 ---
-### Diamond Dataset - Estimating Slope
+### mtcars Dataset - Estimating Slope
 This project is developed as a part of Coursera Data Science Specialization - Developing Data Products Course.
 
 My Shiny application allows users to estimate the slope at which we can have minimum MSE i.e Mean Squared Error.
-I have used Diamond Dataset available in R
+I have used mtcars Dataset available in R
 
 
 #### How to use :
